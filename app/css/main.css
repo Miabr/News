@@ -1,0 +1,145 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family:sans-serif;
+
+}
+.main-section{
+      width:1000px;
+      margin:0 auto;
+}
+.source_label{
+      width: 50%;
+      display: inline-block;
+      height: 200px;
+      padding-top: 40px;
+      padding-left:20px;
+      box-sizing: border-box;
+      float: left;
+}
+.source_name{
+      font-size: 34px;
+      color:#000;
+      text-align: left;
+}
+
+.category_name{
+      font-size: 24px;
+      color: #000;
+      text-align: left;
+}
+.selects-section{
+      display:table;
+}
+
+.selects-section__box{
+    display:table-cell;
+    padding:30px 0;
+    width:50%;
+}
+
+label{
+      font-size: 18px;
+      line-height:20px;
+      padding-right: 20px;
+}
+select{
+      padding-right: 100px;
+      margin-right: 20px;
+}
+.news-section{
+      margin: 0 auto;
+      height: 700px;
+      box-sizing: border-box;
+
+}
+.news-section__news-list-wrap{
+      width: 49%;
+      float: left;
+      height: 650px;
+      box-sizing: border-box;
+
+
+
+
+}
+
+.list-news{
+    padding-right:30px;
+}
+
+.news-section__news-curent-wrap{
+  width: 49%;
+  float: right;
+  height: 650px;
+  box-sizing: border-box;
+}
+.news_prew{
+  height: 200px;
+}
+.news_label{
+  font-size: 18px;
+}
+.news_op{
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  font-size:14px;
+  line-height:16px;
+}
+.active{
+  opacity: 1;
+  background-color: #d7d7d7;
+}
+.author{
+  font-size: 20px;
+  color: #000;
+  text-align: right;
+}
+.title{
+  font-size: 24px;
+  line-height:24px;
+  color: #000;
+  padding-bottom: 20px;
+  padding-right:20px;
+  cursor: pointer;
+}
+
+.description{
+  font-size: 14px;
+  line-height:16px;
+  color: #000;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-right:20px;
+}
+.url{
+    font-size: 14px;
+    line-height:16px;
+  padding-bottom:  20px;
+  color:#000;
+  padding-right:20px;
+}
+
+.url:hover{
+    text-decoration:none;
+}
+
+.news_img{
+  width: 95%;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 20px;
+  background: no-repeat;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.publesheadAd{
+  font-size: 20px;
+  color: #000;
+  text-align: right;
+
+}
+.news_wrap{
+    cursor: pointer;
+}
